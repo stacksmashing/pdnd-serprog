@@ -5,6 +5,16 @@ Pico Debug'n'Dump.
 
 It does not require a custom version of flashrom, just drag the compiled uf2 onto your Pico and you're ready to go.
 
+## Build Instructions
+
+```
+export  PICO_SDK_PATH=...
+mkdir build
+cd build
+cmake
+make
+```
+
 ## Usage
 
 Dump a flashchip:
