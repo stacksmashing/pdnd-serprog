@@ -32,7 +32,7 @@ target_sources(pdnd_serprog PRIVATE
         pdnd/display/ssd1306.c
         )
 
-target_link_libraries(pdnd_serprog PRIVATE pico_stdlib hardware_pio)
+target_link_libraries(pdnd_serprog PRIVATE pico_stdlib hardware_pio hardware_i2c)
 pico_add_extra_outputs(pdnd_serprog)
 
 # enable usb output, disable uart output
